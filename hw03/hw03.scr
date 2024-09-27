@@ -1,0 +1,64 @@
+Script started on 2024-09-26 23:37:18-07:00 [TERM="xterm-256color" TTY="/dev/pts/20" COLUMNS="133" LINES="31"]
+]0;bnorman8@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw03[?2004h[01;32mbnorman8@DESKTOP-AEPOI8D[01;34m ~/cs1b/hw03 $[00m date
+[?2004lThu Sep 26 23:37:19 PDT 2024
+]0;bnorman8@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw03[?2004h[01;32mbnorman8@DESKTOP-AEPOI8D[01;34m ~/cs1b/hw03 $[00m cat myheader.h
+[?2004l#ifndef myheader_h
+#define myheader_h
+
+//***********************************************
+// CS1B - Dr. B - TTh 7:30-9:45pm
+// Brandon Norman - HW #3 Income Tax Calculation
+//***********************************************
+
+#endif
+]0;bnorman8@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw03[?2004h[01;32mbnorman8@DESKTOP-AEPOI8D[01;34m ~/cs1b/hw03 $[00m make
+[?2004lg++ -c main.cpp
+g++ -c inctax.cpp
+g++ -o main main.o inctax.o
+]0;bnorman8@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw03[?2004h[01;32mbnorman8@DESKTOP-AEPOI8D[01;34m ~/cs1b/hw03 $[00m ./main
+[?2004lEnter taxpayer name: John Doe
+Enter tax year (e.g., 2024): 2024
+Enter number of income items: 2
+Enter description for income item 1: Salary
+Enter amount for Salary: 65000
+Enter description for income item 2: Investments
+Enter amount for Investments: 15000
+
+Income Items:
+Salary: $65000
+Investments: $15000
+Enter number of expense items: 2
+Enter description for expense item 1: Mortgage
+Enter amount for Mortgage: 7500
+Enter description for expense item 2: Medical
+Enter amount for Medical: 5000
+
+Expense Items:
+Mortgage: $7500
+Medical: $5000
+Enter number of dependents: 2
+Enter name of dependent 1: John
+Enter relationship of John: Son
+Enter name of dependent 2: Susan
+Enter relationship of Susan: Daughter
+
+Dependents:
+John (Son)
+Susan (Daughter)
+
+Summary:
+Total Income: $80000
+Total Expenses: $12500
+Number of Dependents: 2
+Tax Owed: $11070
+]0;bnorman8@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw03[?2004h[01;32mbnorman8@DESKTOP-AEPOI8D[01;34m ~/cs1b/hw03 $[00m ;s[K[Kls
+[?2004l[0m[00mMakefile[0m  [00mhw03.scr[0m  [00minctax.cpp[0m  [00minctax.h[0m  [00minctax.o[0m  [01;32mmain[0m  [00mmain.cpp[0m  [00mmain.o[0m  [00mmyheader.h[0m
+]0;bnorman8@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw03[?2004h[01;32mbnorman8@DESKTOP-AEPOI8D[01;34m ~/cs1b/hw03 $[00m tar -cvf hw03.tar main.cpp inctax.cpp inctax.h myheader.h M,[Kakefile m[Khw03.c[Kscr
+[?2004lmain.cpp
+inctax.cpp
+inctax.h
+myheader.h
+Makefile
+hw03.scr
+]0;bnorman8@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw03[?2004h[01;32mbnorman8@DESKTOP-AEPOI8D[01;34m ~/cs1b/hw03 $[00m tar -cvf hw03.tar main.cpp inctax.cpp inctax.h myheader.h Makefile hw03.scr[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ktar -cvf hw03.tar main.cpp inctax.cpp inctax.h myheader.h Makefile hw03.scr[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K./main[2Pmakecat myheader.hdate[Ksudo vim Makefilemake[K[2Plscd hw03ls[Kcd cs1bls[Kcat Makefilels[Kmake cleansudo vi Makefilels[K[Kcd hw02ls[Kcd cs1bsudo systemctl reboot[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pudo make[5Pmakesudo vim Makefilemake[Ksudo vim Makefilemake[Ksudo vim Makefilels[Ksudo chown $USER:$USER -R /home/bnorman8/cs1b/hw03[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Ksudo chown $USER:$USER -R /home/bnorman8/cs1b/hw03[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kcat main.cppls[Kcode .^C[?2004l[?2004h[?2004l
+]0;bnorman8@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw03[?2004h[01;32mbnorman8@DESKTOP-AEPOI8D[01;34m ~/cs

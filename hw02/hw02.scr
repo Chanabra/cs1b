@@ -1,0 +1,149 @@
+Script started on 2024-09-12 23:29:00-07:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="150" LINES="53"]
+[?2004h]0;root@DESKTOP-AEPOI8D: /home/bnorman8/cs1b/hw02root@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw02# date
+[?2004lThu Sep 12 23:29:02 PDT 2024
+[?2004h]0;root@DESKTOP-AEPOI8D: /home/bnorman8/cs1b/hw02root@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw02# -s [K[K[Kls -l
+[?2004ltotal 32
+-rw-r--r-- 1 root root  764 Sep 12 15:07 Makefile
+-rw-r--r-- 1 root root  883 Sep 12 23:22 hw02.cpp
+-rw-r--r-- 1 root root  616 Sep 12 23:18 hw02.hpp
+-rw-r--r-- 1 root root    0 Sep 12 23:29 hw02.scr
+-rw-r--r-- 1 root root  483 Sep 12 21:05 hw02menu.cpp
+-rw-r--r-- 1 root root 1353 Sep 12 23:24 hw02saleprod.cpp
+-rw-r--r-- 1 root root  150 Sep 12 20:29 hw02showamt.cpp
+-rw-r--r-- 1 root root  322 Sep 12 20:51 hw02showcount.cpp
+-rw-r--r-- 1 root root  161 Sep 12 20:32 hw02showsale.cpp
+[?2004h]0;root@DESKTOP-AEPOI8D: /home/bnorman8/cs1b/hw02root@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw02# make
+[?2004lg++ -c hw02menu.cpp -o hw02menu.o
+g++ -c hw02saleprod.cpp -o hw02saleprod.o
+g++ -c hw02showamt.cpp -o hw02showamt.o
+g++ -c hw02showcount.cpp -o hw02showcount.o
+g++ -c hw02showsale.cpp -o hw02showsale.o
+g++ hw02.cpp -o hw02 hw02menu.cpp hw02saleprod.o hw02showamt.o hw02showcount.o hw02showsale.o
+[?2004h]0;root@DESKTOP-AEPOI8D: /home/bnorman8/cs1b/hw02root@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw02# ls -l
+[?2004ltotal 76
+-rw-r--r-- 1 root root   764 Sep 12 15:07 Makefile
+-rwxr-xr-x 1 root root 18264 Sep 12 23:29 [0m[01;32mhw02[0m
+-rw-r--r-- 1 root root   883 Sep 12 23:22 hw02.cpp
+-rw-r--r-- 1 root root   616 Sep 12 23:18 hw02.hpp
+-rw-r--r-- 1 root root     0 Sep 12 23:29 hw02.scr
+-rw-r--r-- 1 root root   483 Sep 12 21:05 hw02menu.cpp
+-rw-r--r-- 1 root root  3408 Sep 12 23:29 hw02menu.o
+-rw-r--r-- 1 root root  1353 Sep 12 23:24 hw02saleprod.cpp
+-rw-r--r-- 1 root root  8176 Sep 12 23:29 hw02saleprod.o
+-rw-r--r-- 1 root root   150 Sep 12 20:29 hw02showamt.cpp
+-rw-r--r-- 1 root root  2432 Sep 12 23:29 hw02showamt.o
+-rw-r--r-- 1 root root   322 Sep 12 20:51 hw02showcount.cpp
+-rw-r--r-- 1 root root  3144 Sep 12 23:29 hw02showcount.o
+-rw-r--r-- 1 root root   161 Sep 12 20:32 hw02showsale.cpp
+-rw-r--r-- 1 root root  2448 Sep 12 23:29 hw02showsale.o
+[?2004h]0;root@DESKTOP-AEPOI8D: /home/bnorman8/cs1b/hw02root@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw02# ./hw02
+[?2004lWelcome to the Coffee Shop!
+Enter 1 to order coffee.
+Enter 2 to check the total money made up to this time.
+Enter 3 to check the total amount of coffee sold up to this time.
+Enter 4 to check the number of cups of coffee of each size sold.
+Enter 5 to print the data.
+Enter 9 to exit the program.
+
+Please enter your selection: 1
+
+Enter 1 to buy coffee in a small cup size (9 oz)
+Enter 2 to buy coffee in a medium cup size (12 oz)
+Enter 3 to buy coffee in a large cup size (15 oz)
+Enter 9 to exit.
+1
+Enter the number of cups: 2
+Enter 1 to buy coffee in a small cup size (9 oz)
+Enter 2 to buy coffee in a medium cup size (12 oz)
+Enter 3 to buy coffee in a large cup size (15 oz)
+Enter 9 to exit.
+2
+Enter the number of cups: 1
+Enter 1 to buy coffee in a small cup size (9 oz)
+Enter 2 to buy coffee in a medium cup size (12 oz)
+Enter 3 to buy coffee in a large cup size (15 oz)
+Enter 9 to exit.
+3
+Enter the number of cups: 1
+Enter 1 to buy coffee in a small cup size (9 oz)
+Enter 2 to buy coffee in a medium cup size (12 oz)
+Enter 3 to buy coffee in a large cup size (15 oz)
+Enter 9 to exit.
+9
+Please pay $7.40
+
+Welcome to the Coffee Shop!
+Enter 1 to order coffee.
+Enter 2 to check the total money made up to this time.
+Enter 3 to check the total amount of coffee sold up to this time.
+Enter 4 to check the number of cups of coffee of each size sold.
+Enter 5 to print the data.
+Enter 9 to exit the program.
+
+Please enter your selection: 2
+
+Total Money Made: 7.40$
+
+Welcome to the Coffee Shop!
+Enter 1 to order coffee.
+Enter 2 to check the total money made up to this time.
+Enter 3 to check the total amount of coffee sold up to this time.
+Enter 4 to check the number of cups of coffee of each size sold.
+Enter 5 to print the data.
+Enter 9 to exit the program.
+
+Please enter your selection: 3
+
+Total Coffee Sold: 45.00 ounces.
+
+Welcome to the Coffee Shop!
+Enter 1 to order coffee.
+Enter 2 to check the total money made up to this time.
+Enter 3 to check the total amount of coffee sold up to this time.
+Enter 4 to check the number of cups of coffee of each size sold.
+Enter 5 to print the data.
+Enter 9 to exit the program.
+
+Please enter your selection: 4
+
+
+Cups Sold:
+Small: 2
+Medium: 1
+Large: 1
+
+Welcome to the Coffee Shop!
+Enter 1 to order coffee.
+Enter 2 to check the total money made up to this time.
+Enter 3 to check the total amount of coffee sold up to this time.
+Enter 4 to check the number of cups of coffee of each size sold.
+Enter 5 to print the data.
+Enter 9 to exit the program.
+
+Please enter your selection: 5
+
+
+Cups Sold:
+Small: 2
+Medium: 1
+Large: 1
+
+Total Coffee Sold: 45.00 ounces.
+
+Total Money Made: 7.40$
+
+Welcome to the Coffee Shop!
+Enter 1 to order coffee.
+Enter 2 to check the total money made up to this time.
+Enter 3 to check the total amount of coffee sold up to this time.
+Enter 4 to check the number of cups of coffee of each size sold.
+Enter 5 to print the data.
+Enter 9 to exit the program.
+
+Please enter your selection: 9
+
+Thank you for your business!
+[?2004h]0;root@DESKTOP-AEPOI8D: /home/bnorman8/cs1b/hw02root@DESKTOP-AEPOI8D:/home/bnorman8/cs1b/hw02# exit
+[?2004lexit
+
+Script done on 2024-09-12 23:29:52-07:00 [COMMAND_EXIT_CODE="0"]
